@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
    <style>
+     /*--Bagian dikerjakan oleh Evan Aldwin (05211940000119)--*/
     :root{
         --header-height: 3rem;
         --nav-width: 68px;
@@ -229,6 +230,11 @@
           padding-left: calc(var(--nav-width) + 188px);
         }
       }
+      @media only screen and (max-width: 600px) {
+        .btn-submit{
+          margin-top: -40px;
+        }
+      }
    </style>
 </head>
 <body id="body-pd">
@@ -247,7 +253,7 @@
                 </div>
 
                 <div class="nav__list">
-                    <a href="aboutus.html" class="nav__link">
+                    <a href="index.html" class="nav__link">
                     <i class='bx bx-grid-alt nav__icon' ></i>
                         <span class="nav__name">About Us</span>
                     </a>

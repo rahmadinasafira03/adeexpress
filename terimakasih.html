@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
    <style>
+          /*--Bagian dikerjakan oleh Evan Aldwin (05211940000119)--*/
     :root{
         --header-height: 3rem;
         --nav-width: 68px;
@@ -32,11 +33,6 @@
       /*===== BASE =====*/
       *,::before,::after{
         box-sizing: border-box;
-      }
-      .container{
-        margin-top: 350px;
-        height: 200px;
-        position: relative;
       }
       .center {
         margin: 0;
@@ -260,11 +256,11 @@
         .body-pd{
           padding-left: calc(var(--nav-width) + 188px);
         }
-      }
-      @media only screen and (max-width: 600px) {
-          .btn-submit{
-              margin-top: -40px;
+        @media only screen and (max-width: 600px) {
+          .display-4{
+            font-size: 20px;
           }
+        }
       }
    </style>
 </head>
@@ -284,7 +280,7 @@
                 </div>
 
                 <div class="nav__list">
-                    <a href="aboutus.html" class="nav__link">
+                    <a href="index.html" class="nav__link">
                     <i class='bx bx-grid-alt nav__icon' ></i>
                         <span class="nav__name">About Us</span>
                     </a>
@@ -313,10 +309,10 @@
         </nav>
     </div>
     <section class="content">
+      <div class="jumbotron jumbotron-fluid" style="background-color: white;">
         <div class="container">
-            <div class="center">
-            <h1 class="text-center">Terima Kasih Sudah Menggunakan Jasa <span class="nav__logo-name"><h1><b><i>ADE<span style="color: #DA3849;">Express</span></i></b></h1></span></h1>
-            <img src="https://www.lawdonut.co.uk/business/sites/lawdonut-business/files/courierservice1_0.jpg" width="1100" height="500"/>
+          <h1 class="display-4 text-center" style="font-size:40px;">Terima Kasih Sudah Menggunakan Jasa <span class="nav__logo-name"><h1><b><i style="color: #33383b;">ADE<span style="color: #DA3849;">Express</span></i></b></h1></span></h1>
+          <img src="https://www.lawdonut.co.uk/business/sites/lawdonut-business/files/courierservice1_0.jpg" class="img-fluid img-size" alt="Responsive image" width="1100" height="500">
             <div class="button-move">
                 <div class="row">
                     <div class="col-sm">
@@ -327,6 +323,7 @@
                 </div>
             </div>
         </div>
+      </div>
     </div>
     </section>
     
